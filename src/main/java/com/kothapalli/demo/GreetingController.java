@@ -14,7 +14,7 @@ public class GreetingController {
 	private final AtomicLong counter = new AtomicLong();
 	@RequestMapping("/")
 	public String home() {
-		return "Welcome!";
+		return "Welcomee!";
 	}
 	
 	@RequestMapping(method= RequestMethod.GET)
